@@ -1,0 +1,228 @@
+<!ELEMENT Iso8583PostXml (MsgType, Fields)>
+<!ELEMENT MsgType (#PCDATA)>
+        <!ELEMENT Fields (
+                Field_002?,
+                Field_003?,
+                Field_004?,
+                Field_005?,
+                Field_007?,
+                Field_009?,
+                Field_011?,
+                Field_012?,
+                Field_013?,
+                Field_014?,
+                Field_015?,
+                Field_016?,
+                Field_018?,
+                Field_022?,
+                Field_023?,
+                Field_025?,
+                Field_026?,
+                Field_027?,
+                Field_028?,
+                Field_029?,
+                Field_030?,
+                Field_031?,
+                Field_032?,
+                Field_033?,
+                Field_035?,
+                Field_037?,
+                Field_038?,
+                Field_039?,
+                Field_040?,
+                Field_041?,
+                Field_042?,
+                Field_043?,
+                Field_044?,
+                Field_045?,
+                Field_048?,
+                Field_049?,
+                Field_050?,
+                Field_052?,
+                Field_053?,
+                Field_054?,
+                Field_056?,
+                Field_057?,
+                Field_058?,
+                Field_059?,
+                Field_066?,
+                Field_067?,
+                Field_070?,
+                Field_073?,
+                Field_074?,
+                Field_075?,
+                Field_076?,
+                Field_077?,
+                Field_078?,
+                Field_079?,
+                Field_080?,
+                Field_081?,
+                Field_082?,
+                Field_083?,
+                Field_084?,
+                Field_085?,
+                Field_086?,
+                Field_087?,
+                Field_088?,
+                Field_089?,
+                Field_090?,
+                Field_091?,
+                Field_095?,
+                Field_097?,
+                Field_098?,
+                Field_100?,
+                Field_101?,
+                Field_102?,
+                Field_103?,
+                Field_118?,
+                Field_119?,
+                Field_123?,
+                Field_125?,
+                Field_127_002?,
+                Field_127_003?,
+                Field_127_004?,
+                Field_127_005?,
+                Field_127_006?,
+                Field_127_007?,
+                Field_127_008?,
+                Field_127_009?,
+                Field_127_010?,
+                Field_127_011?,
+                Field_127_012?,
+                Field_127_013?,
+                Field_127_014?,
+                Field_127_015?,
+                Field_127_016?,
+                Field_127_017?,
+                Field_127_018?,
+                Field_127_019?,
+                Field_127_020?,
+                Field_127_021?,
+                Field_127_022?,
+                Field_127_023?,
+                Field_127_024?,
+                Field_127_025?,
+                Field_127_026?,
+                Field_127_027?,
+                Field_127_028?,
+                Field_127_029?,
+                Field_127_030?,
+                Field_127_031?,
+                Field_127_032?,
+                Field_127_033?,
+                Field_127_034?,
+                Field_127_035?,
+                Field_127_039?
+                )>
+        <!ELEMENT Field_002 (#PCDATA)>
+        <!ELEMENT Field_003 (#PCDATA)>
+        <!ELEMENT Field_004 (#PCDATA)>
+        <!ELEMENT Field_005 (#PCDATA)>
+        <!ELEMENT Field_007 (#PCDATA)>
+        <!ELEMENT Field_009 (#PCDATA)>
+        <!ELEMENT Field_011 (#PCDATA)>
+        <!ELEMENT Field_012 (#PCDATA)>
+        <!ELEMENT Field_013 (#PCDATA)>
+        <!ELEMENT Field_014 (#PCDATA)>
+        <!ELEMENT Field_015 (#PCDATA)>
+        <!ELEMENT Field_016 (#PCDATA)>
+        <!ELEMENT Field_018 (#PCDATA)>
+        <!ELEMENT Field_022 (#PCDATA)>
+        <!ELEMENT Field_023 (#PCDATA)>
+        <!ELEMENT Field_025 (#PCDATA)>
+        <!ELEMENT Field_026 (#PCDATA)>
+        <!ELEMENT Field_027 (#PCDATA)>
+        <!ELEMENT Field_028 (#PCDATA)>
+        <!ELEMENT Field_029 (#PCDATA)>
+        <!ELEMENT Field_030 (#PCDATA)>
+        <!ELEMENT Field_031 (#PCDATA)>
+        <!ELEMENT Field_032 (#PCDATA)>
+        <!ELEMENT Field_033 (#PCDATA)>
+        <!ELEMENT Field_035 (#PCDATA)>
+        <!ELEMENT Field_037 (#PCDATA)>
+        <!ELEMENT Field_038 (#PCDATA)>
+        <!ELEMENT Field_039 (#PCDATA)>
+        <!ELEMENT Field_040 (#PCDATA)>
+        <!ELEMENT Field_041 (#PCDATA)>
+        <!ELEMENT Field_042 (#PCDATA)>
+        <!ELEMENT Field_043 (#PCDATA)>
+        <!ELEMENT Field_044 (#PCDATA)>
+        <!ELEMENT Field_045 (#PCDATA)>
+        <!ELEMENT Field_048 (#PCDATA)>
+        <!ELEMENT Field_049 (#PCDATA)>
+        <!ELEMENT Field_050 (#PCDATA)>
+        <!ELEMENT Field_052 (#PCDATA)>
+        <!ELEMENT Field_053 (#PCDATA)>
+        <!ELEMENT Field_054 (#PCDATA)>
+        <!ELEMENT Field_056 (#PCDATA)>
+        <!ELEMENT Field_057 (#PCDATA)>
+        <!ELEMENT Field_058 (#PCDATA)>
+        <!ELEMENT Field_059 (#PCDATA)>
+        <!ELEMENT Field_066 (#PCDATA)>
+        <!ELEMENT Field_067 (#PCDATA)>
+        <!ELEMENT Field_070 (#PCDATA)>
+        <!ELEMENT Field_073 (#PCDATA)>
+        <!ELEMENT Field_074 (#PCDATA)>
+        <!ELEMENT Field_075 (#PCDATA)>
+        <!ELEMENT Field_076 (#PCDATA)>
+        <!ELEMENT Field_077 (#PCDATA)>
+        <!ELEMENT Field_078 (#PCDATA)>
+        <!ELEMENT Field_079 (#PCDATA)>
+        <!ELEMENT Field_080 (#PCDATA)>
+        <!ELEMENT Field_081 (#PCDATA)>
+        <!ELEMENT Field_082 (#PCDATA)>
+        <!ELEMENT Field_083 (#PCDATA)>
+        <!ELEMENT Field_084 (#PCDATA)>
+        <!ELEMENT Field_085 (#PCDATA)>
+        <!ELEMENT Field_086 (#PCDATA)>
+        <!ELEMENT Field_087 (#PCDATA)>
+        <!ELEMENT Field_088 (#PCDATA)>
+        <!ELEMENT Field_089 (#PCDATA)>
+        <!ELEMENT Field_090 (#PCDATA)>
+        <!ELEMENT Field_091 (#PCDATA)>
+        <!ELEMENT Field_095 (#PCDATA)>
+        <!ELEMENT Field_097 (#PCDATA)>
+        <!ELEMENT Field_098 (#PCDATA)>
+        <!ELEMENT Field_100 (#PCDATA)>
+        <!ELEMENT Field_101 (#PCDATA)>
+        <!ELEMENT Field_102 (#PCDATA)>
+        <!ELEMENT Field_103 (#PCDATA)>
+        <!ELEMENT Field_118 (#PCDATA)>
+        <!ELEMENT Field_119 (#PCDATA)>
+        <!ELEMENT Field_123 (#PCDATA)>
+        <!ELEMENT Field_125 (#PCDATA)>
+        <!ELEMENT Field_127_002 (#PCDATA)>
+        <!ELEMENT Field_127_003 (#PCDATA)>
+        <!ELEMENT Field_127_004 (#PCDATA)>
+        <!ELEMENT Field_127_005 (#PCDATA)>
+        <!ELEMENT Field_127_006 (#PCDATA)>
+        <!ELEMENT Field_127_007 (#PCDATA)>
+        <!ELEMENT Field_127_008 (#PCDATA)>
+        <!ELEMENT Field_127_009 (#PCDATA)>
+        <!ELEMENT Field_127_010 (#PCDATA)>
+        <!ELEMENT Field_127_011 (#PCDATA)>
+        <!ELEMENT Field_127_012 (#PCDATA)>
+        <!ELEMENT Field_127_013 (#PCDATA)>
+        <!ELEMENT Field_127_014 (#PCDATA)>
+        <!ELEMENT Field_127_015 (#PCDATA)>
+        <!ELEMENT Field_127_016 (#PCDATA)>
+        <!ELEMENT Field_127_017 (#PCDATA)>
+        <!ELEMENT Field_127_018 (#PCDATA)>
+        <!ELEMENT Field_127_019 (#PCDATA)>
+        <!ELEMENT Field_127_020 (#PCDATA)>
+        <!ELEMENT Field_127_021 (#PCDATA)>
+        <!ELEMENT Field_127_022 (#PCDATA)>
+        <!ELEMENT Field_127_023 (#PCDATA)>
+        <!ELEMENT Field_127_024 (#PCDATA)>
+        <!ELEMENT Field_127_025 (#PCDATA)>
+        <!ELEMENT Field_127_026 (#PCDATA)>
+        <!ELEMENT Field_127_027 (#PCDATA)>
+        <!ELEMENT Field_127_028 (#PCDATA)>
+        <!ELEMENT Field_127_029 (#PCDATA)>
+        <!ELEMENT Field_127_030 (#PCDATA)>
+        <!ELEMENT Field_127_031 (#PCDATA)>
+        <!ELEMENT Field_127_032 (#PCDATA)>
+        <!ELEMENT Field_127_033 (#PCDATA)>
+        <!ELEMENT Field_127_034 (#PCDATA)>
+        <!ELEMENT Field_127_035 (#PCDATA)>
+        <!ELEMENT Field_127_039 (#PCDATA)>
