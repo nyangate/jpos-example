@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE Iso8583PostXml SYSTEM "./mygeneric.dtd">
 <Iso8583PostXml>
-    <MsgType
-    />
+    <MsgType>0800</MsgType>
     <Fields>
         <Field_002></Field_002>
         <Field_003></Field_003>

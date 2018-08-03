@@ -28,6 +28,7 @@ public class Webservice implements WebserviceInterface {
 
     static ISOMsg createISOMsgFromISOMessageContent(
 	    ISOMessageContent messageRequest) throws ISOException {
+
 	ISOMsg isoMessageRequest = new ISOMsg();
 	/* set MTI and header */
 	isoMessageRequest.setMTI(messageRequest.getMTI());
