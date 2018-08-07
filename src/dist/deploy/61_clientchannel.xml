@@ -1,12 +1,12 @@
 <channel-adaptor name="clientchannel" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
 	<channel class="org.jpos.iso.channel.NACChannel" realm="client-channel" logger="Q2"
 			 packager="org.jpos.iso.packager.ISO87APackager">
-		<!--<property name="host" value="172.16.112.7" />-->
-		<property name="host" value="127.0.0.1" />
-		<property name="port" value="1121" />
-		<!--<property name="port" value="50255" />-->
+		<property name="host" value="172.16.112.7" />
+		<!--<property name="host" value="127.0.0.1" />-->
+		<!--<property name="port" value="1121" />-->
+		<property name="port" value="50255" />
 	</channel>
 	<in>clientmux-out</in>
 	<out>clientchannel-out</out>
-	<reconnect-delay>5000</reconnect-delay>
+	<reconnect-delay>10000</reconnect-delay>
 </channel-adaptor> 
