@@ -1,7 +1,7 @@
 <qserver name="isodummyserver" logger="Q2" realm="isodummyserver">
     <attr name="port" type="java.lang.Integer">1121</attr>
     <channel realm="server-channel" logger="Q2" class="org.jpos.iso.channel.NACChannel"
-             packager="org.jpos.iso.packager.ISO87APackager">
+             packager="org.jpos.iso.packager.PostPackager">
         <!--You can set your packager config xml by:-->
         <!--<property name="packager-config" value="cfg/packager/interswitch.xml" />-->
         <!--&ndash;&gt;-->
