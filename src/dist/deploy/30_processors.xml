@@ -41,7 +41,6 @@ public class MessagePreProcessor implements MessageProcessor {
 	<!--if (message.getString("37") == null) {-->
 	    <!--result.set(37, result.getString(11));-->
 	<!--}-->
-
 	if (message.getString("7") == null) {
 	    result.set(7, ISODate.getDateTime(date));
 	}

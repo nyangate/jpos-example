@@ -4,7 +4,7 @@
 		<property name="host" value="172.16.112.7" />
 		<!--<property name="host" value="127.0.0.1" />-->
 		<!--<property name="port" value="1121" />-->
-		<property name="port" value="50255" />
+		<property name="port" value="19894" />
 	</channel>
 	<in>clientmux-out</in>
 	<out>clientchannel-out</out>
