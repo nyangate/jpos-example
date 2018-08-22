@@ -1,5 +1,5 @@
 <channel-adaptor name="clientchannel" class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
-	<channel class="org.jpos.iso.channel.PostChannel" realm="client-channel" logger="Q2"
+	<channel class="org.jpos.iso.channel.NACChannel" realm="client-channel" logger="Q2"
 			 packager="org.jpos.iso.packager.PostPackager">
 		<property name="host" value="172.16.112.7" />
 		<!--<property name="host" value="127.0.0.1" />-->
