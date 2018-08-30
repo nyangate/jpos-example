@@ -51,9 +51,7 @@ public class Webservice implements WebserviceInterface {
 	ISOMessageContent response = new ISOMessageContent();
 	/* set MTI and header */
 	response.setMTI(isoResponseMessage.getMTI());
-	if (isoResponseMessage.getHeader() != null) {
-	    response.setISOHeader(new String(isoResponseMessage.getHeader()));
-	}
+
 	/* map ISOMsg fields and subfields to ISOMessageContent hashmap */
 	for (int i = 1; i <= isoResponseMessage.getMaxField(); i++) {
 	    if (isoResponseMessage.hasField(i)) {
@@ -61,6 +59,9 @@ public class Webservice implements WebserviceInterface {
 			isoResponseMessage.getString(i));
 	    }
 	}
+	if (isoResponseMessage.getHeader() != null) {
+					response.setISOHeader(new String(isoResponseMessage.getHeader()));
+		}
 	return response;
     }
 
