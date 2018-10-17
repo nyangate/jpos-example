@@ -274,7 +274,7 @@
             id="52"
             length="8"
             name="PIN DATA"
-            class="org.jpos.iso.IFA_BINARY"/>
+            class="org.jpos.iso.IFB_BINARY"/>
     <isofield
             id="53"
             length="48"
