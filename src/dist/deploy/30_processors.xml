@@ -2,6 +2,7 @@
 import org.jpos.iso.ISOMsg;
 import org.jpos.util.NameRegistrar;
 import org.jpos.iso.ISODate;
+import org.jpos.iso.ISOUtil;
 
 import middleware.MessageProcessor;
 
@@ -52,6 +53,9 @@ public class MessagePreProcessor implements MessageProcessor {
 	if (message.getString("13") == null) {
 	    result.set(13, ISODate.getDate(date));
 	}
+    if (message.getString("52") != null) {
+    result.set(52, ISOUtil.hex2byte(message.getString("52")));
+    }
 
 	return result;
     }
