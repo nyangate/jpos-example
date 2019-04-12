@@ -862,7 +862,7 @@
                     id="14"
                     length="504"
                     name="CVM LIST"
-                    class="org.jpos.iso.IFA_LLCHAR"/>
+                    class="org.jpos.iso.IFA_LLLCHAR"/>
             <isofield
                     id="15"
                     length="6"
