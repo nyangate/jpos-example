@@ -907,7 +907,7 @@
                     id="23"
                     length="2"
                     name="TERMINAL TYPE"
-                    class="org.jpos.iso.IFA_NNUMERIC"/>
+                    class="org.jpos.iso.IFA_NUMERIC"/>
             <isofield
                     id="24"
                     length="10"
